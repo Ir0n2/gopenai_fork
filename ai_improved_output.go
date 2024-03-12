@@ -1,10 +1,7 @@
 package main
 
 import (
-        //"context"
         "log"
-        //"net"
-        //"net/http"
 	"fmt"
 	"bufio"
         "strings"
@@ -13,7 +10,8 @@ import (
 )
 
 func main() {
-
+	//The prompter func takes a string as a prompt and logs the output in a file, the format func formats that output and deletes the file.
+	//This might be the coolest thing I've ever written. Feel free to fork my code and improve it.
 	prompter("Give me a good country song")
 	format()
 
@@ -112,7 +110,8 @@ func deleteFile(path string) {
 
 
 func prompter(prompt string) {
-        key := "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"
+	//replace this with your openai api key
+        key := "YOUR KEY GOES HERE"
 
         instance := gopenai.Setup(key)
 
