@@ -258,6 +258,5 @@ func prompter(prompt string) {
 
 ```
 
-ETH: blackestwhite.eth
-
-TON: blackestwhite.ton
+Thank you to blackestwhite for making the package.
+f
