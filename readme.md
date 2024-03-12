@@ -5,6 +5,8 @@
 
 ## How to use
 
+Copy & past your api key and put your prompt where it says content.
+
 basic usage:
 
 ```go
@@ -259,4 +261,4 @@ func prompter(prompt string) {
 ```
 
 Thank you to blackestwhite for making the package.
-f
+
