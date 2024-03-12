@@ -10,10 +10,18 @@ import (
 )
 
 func main() {
-	//The prompter func takes a string as a prompt and logs the output in a file, the format func formats that output and deletes the file.
-	//This might be the coolest thing I've ever written. Feel free to fork my code and improve it.
-	prompter("Give me a good country song")
-	format()
+	
+	promptGPT("say 'Hello World'")
+
+}
+//The more functions I use the slower this gets but I really wanted this to work in one function call. I'm sorry for writing subpar code :(
+func promptGPT(prompt string) {
+
+//The prompter func takes a string as a prompt and logs the output in a file, the format func formats that output and deletes the file.
+//This might be the coolest thing I've ever written. Feel free to fork my code and improve it.
+	
+        prompter(prompt)
+        format()
 
 
 }
