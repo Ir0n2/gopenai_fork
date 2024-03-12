@@ -121,7 +121,7 @@ func deleteFile(path string) {
 
 
 func prompter(prompt string) {
-        key := "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"
+        key := "PUT YOUR KEY HERE"
 
         instance := gopenai.Setup(key)
 
