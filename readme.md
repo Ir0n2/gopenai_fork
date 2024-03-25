@@ -5,7 +5,7 @@
 
 ## How to use
 
-Copy & past your api key and put your prompt where it says content.
+Copy & paste your api key and put your prompt where it says content.
 
 ## Improved output
 
