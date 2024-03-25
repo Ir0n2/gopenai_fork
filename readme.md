@@ -98,9 +98,16 @@ func main() {
 
 ## Improved output
 
-Here's the code for the improved output, Just use the promptGPT() function to prompt chatgpt and it will return its output as a string.
-so you can prompt it easy with fmt.Println(promptGPT("say 'hello world'")). Idk waht else to say you can really do what you want with it.
-It's a function for prompting chatgpt, you can do whatever really.
+Here's the code for the improved output, Just use the promptGPT() function to prompt chatgpt it takes a string as input and it will return its output as a string.
+so you can prompt it easy with fmt.Println(promptGPT("say 'hello world'")). Idk what else to say you can really do what you want with it.
+
+It's a function for prompting chatgpt, it returns chatgpts response as a string, you can do whatever with it really.
+
+just copy and paste my code, and add it to your own program. 
+
+(you can copy the code from here, it should work aslong as you install blackestwhites package)
+
+incase the above wasn't clear enough, here's and example of how to use it:
 
 ```go
 
